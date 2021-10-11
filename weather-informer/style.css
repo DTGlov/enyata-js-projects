@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins','sans-serif';
+}
+.weather-title{
+    width: 50%;
+    margin: 1.2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.forecast{
+    font-size: 2rem;
+}
+
+.weather-info{
+    width: 60%;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-weather{
+    display: flex;
+    /* align-items: center; */
+}
+.icon{
+    margin-right:1em ;
+}
+.weather-pre{
+    display: flex;
+}
+.info{
+    font-size: 2rem;
+}
+.condition{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 2em auto;
+}
+.graph{
+    width: 50%;
+    margin: 0 auto;
+}
