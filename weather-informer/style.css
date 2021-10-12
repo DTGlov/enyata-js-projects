@@ -20,6 +20,13 @@ body{
     font-size: 2rem;
 }
 
+.icon-small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .weather-info{
     width: 60%;
     margin: 3em auto;
